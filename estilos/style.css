@@ -6,34 +6,12 @@
     background-color: #ddcace;
     }
 
-nav ul {
+#asideindex {
     display: flex;
-    list-style-type: none;
-    align-items: center; 
-    border: solid 2px;
+    flex-wrap: wrap;
+    color: black;
 }
 
-#grilla {
-    display: grid;
-    grid-template-areas:
-    "header header header"
-    "aside aside aside"
-    "footer footer footer";
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    row-gap: 100px;
-}
-
-header {
-    grid-area: header;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-aside { 
-    display: flex;
-    flex-direction: row;
-    grid-area: aside;
-    column-gap: 10px;
+.navbar navbar-expand-md navbar-dark bg-dark {
+    background-color: black;
 }
