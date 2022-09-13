@@ -3,20 +3,28 @@
     margin: 0;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
-    background-color: #ddcace;
+    background-image: url(../imagenes/fondo-proyecto.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     }
 
 aside {
     display: flex;
     flex-direction: row;
-} 
+}
+
+.logoindex {
+    display: flex;
+    align-items: center;
+}
 
 .navbar navbar-expand-md navbar-dark bg-dark {
     background-color: white;
 }
 .animacion {
     margin-top: 10px;
-    border: 04px solid;
     animation-name: efectoUno;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -46,7 +54,4 @@ aside {
     header ul {
         flex-direction: column;
         }
-    aside {
-        flex-direction: column;
-    }
 }
