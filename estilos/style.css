@@ -1,0 +1,57 @@
+* {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(../imagenes/fondo-proyecto.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
+aside {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoindex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar navbar-expand-md navbar-dark bg-dark {
+    background-color: white;
+}
+.animacion {
+    margin-top: 10px;
+    animation-name: efectoUno;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 02s;
+}
+
+@keyframes efectoUno {
+      0% {
+        transform: scale(1, 1) (10px);
+      }
+      25% {
+        transform: scale(0.5, 0.5) translateX(30px);
+      }
+      50% {
+        transform: scale(0.2, 0.2) translateX(50px);
+      }
+      75% {
+        transform: scale(0.5, 0.5) translateX(70px);
+      }
+      100% {
+        transform: scale(1, 1) translateX(10px);
+      }
+}
+
+@media screen and (max-widht: 576px) and (orientation: portrait) {
+    header ul {
+        flex-direction: column;
+        }
+}
