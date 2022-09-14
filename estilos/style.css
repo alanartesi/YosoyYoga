@@ -1,18 +1,20 @@
 * {
     font-size: 14px;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
-    background-image: url(../imagenes/fondo-proyecto.jpg) ;
+    background-image: linear-gradient(to right, #5f72bd, #6069cf, #6b5cdd, #8049e6, #9b23ea);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     }
 
-aside {
-    display: flex;
-    flex-direction: row;
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .logoindex {
@@ -20,34 +22,20 @@ aside {
     align-items: center;
 }
 
-.navbar navbar-expand-md navbar-dark bg-dark {
-    background-color: white;
-}
-.animacion {
-    margin-top: 10px;
-    animation-name: efectoUno;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-    animation-delay: 02s;
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@keyframes efectoUno {
-      0% {
-        transform: scale(1, 1) (10px);
-      }
-      25% {
-        transform: scale(0.5, 0.5) translateX(30px);
-      }
-      50% {
-        transform: scale(0.2, 0.2) translateX(50px);
-      }
-      75% {
-        transform: scale(0.5, 0.5) translateX(70px);
-      }
-      100% {
-        transform: scale(1, 1) translateX(10px);
-      }
+.card {
+  background: black;
+  border: solid 2px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-widht: 576px) and (orientation: portrait) {
