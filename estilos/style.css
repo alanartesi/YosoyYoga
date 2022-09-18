@@ -28,7 +28,18 @@ header nav ul {
   border: solid 2px;
 }
 
-footer {
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer h3 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+.mainconocenos {
   display: flex;
   justify-content: center;
 }
@@ -37,4 +48,13 @@ footer {
     header ul {
         flex-direction: column;
         }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+100% {
+    opacity: 1;
+  }
 }
