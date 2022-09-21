@@ -1,0 +1,25 @@
+main {
+    font-size: 14px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: $backgroundmain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+.card-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 500px;
+
+    .card {
+        background: transparent;
+        border: solid 2px;
+    }
+}
+}

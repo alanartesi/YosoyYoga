@@ -1,31 +1,49 @@
-* {
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: bold;
-    background-image: linear-gradient(to right, #5f72bd, #6069cf, #6b5cdd, #8049e6, #9b23ea);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    }
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+#encabezado.container-fluid {
+  background: url(../imagenes/banner.png)no-repeat center;
+  background-size: cover;
 }
 
+.navbar {
+  background-color: transparent !important;
+}
+
+main {
+  font-size: 14px;
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}  
+
 .card-container {
+  padding-top: 50px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+margin-left: 500px;
 }
 
 .card {
-  background: black;
+  background: transparent;
   border: solid 2px;
+}
+
+footer {
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 200px;
 }
 
 footer ul {
@@ -43,6 +61,22 @@ footer h3 {
   display: flex;
   justify-content: center;
 }
+
+.tarifas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10px;
+  border-width: 2px;
+  margin: auto;
+}
+
+.formcontacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 
 @media screen and (max-widht: 576px) and (orientation: portrait) {
     header ul {
