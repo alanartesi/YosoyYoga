@@ -1,0 +1,56 @@
+#encabezado.container-fluid {
+  background: url(../imagenes/banner.png) no-repeat center;
+  background-size: cover;
+}
+#encabezado.container-fluid .navbar {
+  background-color: transparent !important;
+}
+
+main {
+  font-size: 14px;
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+main .card-container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 500px;
+}
+main .card-container .card {
+  background: transparent;
+  border: solid 2px;
+}
+
+footer {
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 200px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul h3 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}/*# sourceMappingURL=styles.css.map */
