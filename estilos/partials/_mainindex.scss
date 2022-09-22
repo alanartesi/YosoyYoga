@@ -10,16 +10,76 @@ main {
     background-position: center center;
     background-attachment: fixed;
 
-.card-container {
-    padding-top: 50px;
+    .card-container {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 700px;
+
+        .card {
+            background: transparent;
+            border: solid 2px;
+
+
+            .tarifas {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+
+                table {
+                    table-layout: fixed;
+                    width: 50%;
+                    border-collapse: collapse;
+                    border: 3px solid black;
+                    margin-left: 300px;
+
+                    tr {
+                        border: 1px solid black;
+
+                        td {
+                            border: 1px solid black;
+
+                            th {
+                                border: 1px solid black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.form1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 500px;
 
-    .card {
-        background: transparent;
-        border: solid 2px;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        .boton {
+            display: flex;
+            flex-direction: row;
+        }
     }
 }
+
+main section .carousel {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+
+    .carrousel-item {
+        text-align: left;
+    }
 }
