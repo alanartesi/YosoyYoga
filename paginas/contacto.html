@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="YOGA, SALUD, BENEFICIOS, INSTRUCTORADO, CLASES">
+  <meta name="description" content="Contactate con nosotros para saber más">
   <script src="https://kit.fontawesome.com/91576acbe5.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="stylesheet" href="../estilos/style.css">
+  <link rel="stylesheet" href="../estilos/styles.css">
+  <link rel="shorcout icon" href="../imagenes/fdeloto.png">
   <title>Contacto</title>
 </head>
 
@@ -45,38 +48,52 @@
   <main class="form1">
     <h3>Podes realizar cualquier consulta completando el siguiente formulario</h3>
     <form>
-      <label for="nombre">Nombre</label>
-      <input id="nombre" type="text">
-      <label for="apellido">Apellido</label>
-      <input id="apellido" type="text">
-      <label for="edad">Edad</label>
-      <input id="edad" type="number">
-      <label for="pais">País</label>
-      <select>
-        <option>Argentina</option>
-        <option>Bolivia</option>
-        <option>Brasil</option>
-        <option>Chile</option>
-        <option>Colombia</option>
-        <option>Ecuador</option>
-        <option>Paraguay</option>
-        <option>Perú</option>
-        <option>Uruguay</option>
-        <option>Venezuela</option>
-        <option>Otro</option>
-      </select>
-      <label for="ciudad">Ciudad</label>
-      <input id="ciudad" type="text">
-      <label for="mensaje">Dejanos tu mensaje</label>
-      <textarea></textarea>
-      <input class="boton" type="submit">
-      <input class="boton" type="reset" value="Reset">
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input class="form-control" id="nombre" type="text">
+      </div>
+      <div class="form-group">
+        <label for="apellido">Apellido</label>
+        <input class="form-control" id="apellido" type="text">
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad</label>
+        <input class="form-control" id="edad" type="number">
+      </div>
+      <div class="form-group">
+        <label for="pais">País</label>
+        <select class="form-control">
+          <option>Argentina</option>
+          <option>Bolivia</option>
+          <option>Brasil</option>
+          <option>Chile</option>
+          <option>Colombia</option>
+          <option>Ecuador</option>
+          <option>Paraguay</option>
+          <option>Perú</option>
+          <option>Uruguay</option>
+          <option>Venezuela</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="ciudad">Ciudad</label>
+        <input class="form-control" id="ciudad" type="text">
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Dejanos tu mensaje</label>
+        <textarea class="form-control"></textarea>
+      </div>
+      <div class="buttons-group">
+        <input class="btn btn-light" type="reset" value="Reset">
+        <input class="btn btn-success" type="submit">
+      </div>
       <label>Deseo recibir información via mail</label>
       <input type="checkbox" checked="">
     </form>
-  </aside>
-  </form>
-</main>
+    </aside>
+    </form>
+  </main>
 
   <footer>
     <h3>Contactanos en nuestras redes</h3>

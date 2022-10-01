@@ -1,0 +1,19 @@
+$backgroundmain: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+
+table {
+@extend %botondefault;
+
+    tr {
+        border: 1px solid black;
+
+
+        th {
+            border: 1px solid black;
+
+
+            td {
+                border: 1px solid black;
+            }
+        }
+    }
+}
