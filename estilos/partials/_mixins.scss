@@ -1,0 +1,13 @@
+@mixin footer ($colortext: black) {
+    font-size: 14px;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: $colortext;
+    background-color: map-get(backgroundmains);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 200px;
+}

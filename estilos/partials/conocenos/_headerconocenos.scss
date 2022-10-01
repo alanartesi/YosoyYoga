@@ -1,5 +1,5 @@
 #encabezado.container-fluid {
-    background: url(../imagenes/banner.png)no-repeat center;
+    $backgrounds: url(../imagenes/banner.png)no-repeat center;
     background-size: cover;
 
     .navbar {

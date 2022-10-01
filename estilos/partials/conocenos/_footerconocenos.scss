@@ -1,9 +1,10 @@
 footer {
     font-size: 14px;
     margin: 0;
+    color: $colortext;
     box-sizing: border-box;
     font-weight: bold;
-    background-color: $backgroundmain;
+    background-color: map-get(backgroundmains);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
