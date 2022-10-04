@@ -1,1 +1,20 @@
 $backgroundmain: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+
+main {
+    font-size: 14px;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #f57906, #d67627, #f3a735, #fdb85e, #f7c872);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    main section .carousel {
+        margin: auto;
+        max-width: 600px;
+        text-align: left;
+    }
+}
