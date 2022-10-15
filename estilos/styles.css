@@ -68,6 +68,10 @@ footer h3 {
   animation-iteration-count: infinite;
 }
 
+footer div {
+  display: flex;
+}
+
 .mainconocenos {
   display: flex;
   justify-content: center;
