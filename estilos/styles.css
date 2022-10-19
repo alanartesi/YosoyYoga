@@ -68,9 +68,7 @@ footer h3 {
   animation-iteration-count: infinite;
 }
 
-footer div {
-  display: flex;
-}
+
 
 .mainconocenos {
   display: flex;
@@ -107,8 +105,12 @@ form {
   flex-direction: row;
 }
 
-.carrousel-item {
-  text-align: left;
+.carousel-caption p {
+  color: black;
+}
+
+.carousel-caption h5 {
+  color: black;
 }
 
 table {
