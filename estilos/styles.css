@@ -24,7 +24,7 @@ main section .carousel {
   margin: auto;
   max-width: 600px;
   text-align: left;
-}
+  }
 
 .card-container {
   width: 100%;
@@ -68,8 +68,6 @@ footer h3 {
   animation-iteration-count: infinite;
 }
 
-
-
 .mainconocenos {
   display: flex;
   justify-content: center;
@@ -106,11 +104,15 @@ form {
 }
 
 .carousel-caption p {
-  color: black;
+  color: #f57906;
+  background-color: black;
+  opacity: 0.7;
 }
 
 .carousel-caption h5 {
-  color: black;
+  color: #f57906;
+  background-color: black;
+  opacity: 0.7;
 }
 
 table {
