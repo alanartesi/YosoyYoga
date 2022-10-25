@@ -16,5 +16,17 @@ main {
         margin: auto;
         max-width: 600px;
         text-align: left;
+
+        main section .carousel-caption h5 {
+            color: #f57906;
+            background-color: black;
+            opacity: 0.7;
+
+            main section .carousel-caption p {
+                color: #f57906;
+                background-color: black;
+                opacity: 0.7;
+            }
+        }
     }
 }
